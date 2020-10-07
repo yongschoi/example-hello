@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: window-dev
+---
+server:
+  port: 8080
+
+logging:
+  level:
+    yongs:
+      temp: ERROR
+      
+spring:
+  profiles: window-dev
+  application:
+    name: example-hello
