@@ -15,6 +15,6 @@ public class HelloController {
     public String hi() {
     	logger.debug("example-hello|HelloController|hi()");
     	// id 순으로 sort
-    	return "Hello, Jenkins";
+    	return "Hello, Jenkins. Congratulations !!!";
     }
 }
