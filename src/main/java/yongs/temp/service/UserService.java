@@ -36,6 +36,9 @@ public class UserService {
     	
     	User user8 = new User("이밍박", 0);
     	list.add(user8);  
+ 
+    	User user9 = new User("이성계", 95);
+    	list.add(user9);  
     	
     	return list;
     }
