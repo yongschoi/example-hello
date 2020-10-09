@@ -17,7 +17,7 @@ notifications:
   email:
     recipients:
       - yongschoi@naver.com
-    on_success: always
+    on_failure: always
 
-after_success:
-  - curl -X POST https://api.telegram.org/bot$TELEGRAM_TOKEN/sendMessage -d chat_id=$TELEGRAM_CHAT_ID -d "text=Build Complete"
+after_script:
+  - bash ./telegram_notification.sh
