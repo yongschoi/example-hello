@@ -23,7 +23,7 @@ public class HelloController {
     public String hi() {
     	logger.debug("example-hello|HelloController|hi()");
     	    	
-    	return "Hello, Sample SpringBoot for Jenkins";
+    	return "Hello, Sample SpringBoot for Jenkins ::: v1 테스트입니다.";
     }
     
     @GetMapping("/users")
