@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>yongs.temp</groupId>
 	<artifactId>example-hello</artifactId>
-	<version>v2</version>
+	<version>v3</version>
 	<name>example-hello</name>
 	<description>Sample SpringBoot for Jenkins</description>
 
