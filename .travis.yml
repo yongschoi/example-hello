@@ -13,11 +13,11 @@ cache:
 before_install:
   - chmod +x mvnw    
 
-notifications:
-  email:
-    recipients:
-      - yongschoi@naver.com
-    on_failure: always
+#notifications:
+#  email:
+#    recipients:
+#      - yongschoi@naver.com
+#    on_failure: always
 
 after_script:
   - bash ./telegram_notification.sh
