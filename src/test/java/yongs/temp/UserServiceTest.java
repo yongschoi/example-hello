@@ -27,8 +27,7 @@ class UserServiceTest {
 		// Junit은 Autowired를 통해 new가 되지 않음
 		UserService userService = new UserService();
 		   
-		// int expectedSize = 8;
-		int expectedSize = 7;
+		int expectedSize = 8;
 		
 		List<User> list = userService.findByScoreRatingExcludeZero();
 		assertEquals(expectedSize, list.size());	
