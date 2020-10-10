@@ -12,7 +12,7 @@ import yongs.temp.vo.User;
 
 class UserServiceTest {
 	@Test
-	@DisplayName("모든 사용자")
+	@DisplayName("모든 사용자 테스트")
 	void user_rating() {
 		// Junit은 Autowired를 통해 new가 되지 않음
 		UserService userService = new UserService();
@@ -22,7 +22,7 @@ class UserServiceTest {
 		assertEquals(expectedSize, list.size());	
 	}
 	@Test
-	@DisplayName("0점 사용자 제외")
+	@DisplayName("0점 사용자 제외 테스트")
 	void user_rating_exclude_zero() {
 		// Junit은 Autowired를 통해 new가 되지 않음
 		UserService userService = new UserService();
